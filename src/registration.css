@@ -1,0 +1,403 @@
+.container_custom {
+    max-width: 1024px !important;
+}
+
+.registration_box {
+    width: 712px;
+    border: #e1e8ed 1px solid;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+body {
+    background-color: #ffffff !important;
+}
+
+hr {
+    margin: 0;
+}
+
+.top_sign_in_btn,
+.envato_account_button,
+.cart_button {
+    height: 32px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.top_sign_in_btn:hover,
+.envato_account_button:hover,
+.cart_button:hover {
+    cursor: pointer;
+    background-color: #000000 !important;
+}
+
+.fa-cart-shopping {
+    color: #808080;
+    font-size: 10px !important;
+}
+
+.cart_button {
+    width: 33px;
+    margin: 0 1px;
+}
+
+.envato_account_button {
+    width: 178px;
+    border-radius: 4px 0 0 4px;
+}
+
+.top_sign_in_btn {
+    font-weight: 400 !important;
+    width: 68px;
+    color: #e3e3e3;
+    border-radius: 0 4px 4px 0;
+}
+
+.h1_createAcc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #454545;
+    line-height: 24px;
+    font-weight: 600
+ }
+
+.SignIn_gray {
+   width: 83px;
+   height: 31px; 
+   background-color: #808080;
+   border-radius: 4px;
+   font-size: 14px;
+   border: none;
+   color: white;
+   margin-left: 4px;
+}
+
+.SignIn_gray:hover {
+    background-color: #0084b4;
+    cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, a, 
+span, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span_gray_account,
+.gray_under_text {
+    color: #545454;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+.reg_header, .custom_hr_bottom {
+    border-bottom: 1px #e1e8ed solid;
+}
+
+.continiue_with_button {
+    height: 40px;
+    background: none;
+    background-color:#ffffff;
+    color: rgb(102, 102, 102);
+    box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px inset;
+    border: 0px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 600;  
+    line-height: 24px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.continiue_with_button:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.google_icon, .apple_icon,
+.facebook_icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.google_icon {
+    background: url(/public/assets/icons/google_icon.svg);
+}
+
+.apple_icon {
+    background: url(/public/assets/icons/apple_icon.svg);
+}
+
+.facebook_icon {
+    background: url(/public/assets/icons/facebook.icon.svg);
+}
+
+.or_text {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(124, 124, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 14px;
+}
+
+.long_line {
+    color: #545454;
+}
+
+.form_label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #383838;
+    font-weight: 600;
+}
+
+.input_div {
+    width: 327px;
+}
+
+.form_input {
+    width: 327px;
+    height: 32px;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px inset;
+    border: 0px;
+    padding: 8px;
+}
+
+.form_input:focus {
+    box-shadow: rgb(91, 166, 193) 0px 0px 0px 1px inset;
+}
+
+.div_b24 {
+   width: 327px;
+   height: 28px;
+}
+
+.gray_under_text {
+    font-size: 14px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7c7c7d !important;
+}
+
+.captcha_box {
+    width: 302px;
+    height: 76px;
+    background-color: #fafafa;
+    box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px inset;
+    border-radius: 4px;
+}
+
+.captcha_checkbox {
+    width: 28px;
+    height: 28px;
+    border: none;
+    box-shadow: #b2b2b2 0px 0px 0px 2px inset;
+    border-radius: 4px;
+}
+
+.captcha_checkbox:hover {
+    box-shadow: #9e9e9e 0px 0px 0px 2px inset;
+}
+
+.captcha_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.captcha_icon {
+    width: 32px;
+    height: 32px;
+    background: url(/public/assets/icons/captcha_logo_48.png);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.recaptcha_text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #7c7c7d !important;
+}
+
+.tips_checkbox {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px !important;
+    box-shadow: rgb(208, 208, 209) 0px 0px 0px 1px inset;
+    border: none;
+}
+
+.tips_checkbox:hover {
+    cursor: pointer;
+}
+
+.tips_checkbox:checked {
+    accent-color: rgb(0, 132, 180);
+    border: none;
+    box-shadow: none;
+}
+
+.tips_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(56, 56, 56);
+}
+
+.tips_gray_text {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(124, 124, 125);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.hr_color {
+    color: #919191;
+}
+
+.envato_data_text {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7c7c7d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.link_underline {
+    text-decoration: underline;
+}
+
+.link_underline:hover {
+    cursor: pointer;
+}
+
+.background_darker_white {
+    background-color: #fafafa;
+    border: #e1e8ed 1px solid;
+}
+
+.create_acc_button {
+    width: 205px;
+    height: 31px;
+    background-color: #82b440;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    box-shadow: 0 2px 0 #6f9a37;
+}
+
+.create_acc_button:hover {
+    cursor: pointer;
+    background-color: #7aa93c !important;
+}
+
+.line_card {
+    height: 58px;
+    border: #e1e8ed 1px solid;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.line_card:hover {
+    cursor:not-allowed;
+}
+
+.line_card_text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8f8f8f;
+}
+
+.envato_copyright {
+    font-size: 12.8px;
+    color: #666666;
+}
+
+.order_summary_box {
+    background-color: #fafafa;
+    border: #e1e8ed 1px solid;
+    border-radius: 4px;
+    width: 274px;
+}
+
+.order_summary_h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #454545;
+}
+
+.order_text, .price_mini {
+    max-width: 175px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #545454;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.col-9-custom {
+    max-width: 712px;
+    min-width: 712px;
+    margin-right: 17px;
+}
+
+.col-3-custom {
+    min-width: 274px;
+}
+
+.info_icon {
+    background: url(/public/assets/icons/info_icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+}
+
+.fa-lock {
+    color: #ababab !important;
+}
+
+.secure_checkout_text {
+    color: #ababab;
+    font-size: 16px;
+}
+
+.gray_create_acc {
+    width: 135px !important;
+}
+
+.remind_me_button {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #0084B4;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.sign_in_btn {
+    width: 152px !important;
+}
+
+
+
+

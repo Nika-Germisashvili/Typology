@@ -1,0 +1,50 @@
+.typology_logo {
+    width: 104px;
+    height: 34px;
+}
+
+header {
+    height: 110px;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(/public/assets/fonts/JosefinSans-Regular.ttf);
+}
+
+.nav_dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+}
+
+.nav_link_button {
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 11px;
+    padding: 16px 14px 13px !important;
+    line-height: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transition-delay: 1s;
+    z-index: 1000 !important;
+}
+
+.dropdown-menu {
+    overflow: hidden !important;
+}
+
+.dropdown-item {
+    font-family: 'Josefin Sans' !important;
+    font-weight: 600;
+    font-size: 12px;
+    color: #696969;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    color: #d76578 !important;
+    margin-left: 5px;
+}
