@@ -31,7 +31,6 @@ function CommentApp() {
       axios.post(`https://apitest.reachstar.io/comment/add/${id}`, payload)
         .then(response => {
           console.log("Comment added successfully:", response.data);
-          // Fetch updated blog details after adding comment
           axios.get(`https://apitest.reachstar.io/blog/get/${id}`)
             .then(response => {
               const updatedBlog = response.data;
