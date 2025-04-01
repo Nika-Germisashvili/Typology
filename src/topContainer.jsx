@@ -69,7 +69,7 @@ const TopContainer = ({children}) => {
                                         <Link to={ "/page-1" } style={readOnButtonStyle} className="btn_font btn_hover text-decoration-none">Read On</Link>
 
                                         <Link to={ "/blog" } className="text-decoration-none d-flex justify-content-center btn_hover" style={readLaterButtonStyle}>                                                                           
-                                            <p className="m-0 btn_font">Blog</p>
+                                            <p className="m-0 btn_font">Add Blog</p>
                                         </Link>
                                     </div>
 
